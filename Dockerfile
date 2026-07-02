@@ -244,6 +244,7 @@ RUN set -eux \
     && chmod +x /usr/local/bin/deduplicate.py \
     && /usr/local/bin/deduplicate.py --verbose /usr/src/paperless/static/
 RUN chmod +x /etc/s6-overlay/s6-rc.d/init-start/run \
+    && chmod +x /etc/s6-overlay/s6-rc.d/*/run
 
 VOLUME ["/usr/src/paperless/data", \
         "/usr/src/paperless/media", \
