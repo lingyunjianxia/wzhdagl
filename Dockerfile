@@ -243,6 +243,7 @@ RUN set -eux \
     && s6-setuidgid paperless python3 manage.py compilemessages \
     && chmod +x /usr/local/bin/deduplicate.py \
     && /usr/local/bin/deduplicate.py --verbose /usr/src/paperless/static/
+RUN chmod +x /etc/s6-overlay/s6-rc.d/init-start/run \
 
 VOLUME ["/usr/src/paperless/data", \
         "/usr/src/paperless/media", \
