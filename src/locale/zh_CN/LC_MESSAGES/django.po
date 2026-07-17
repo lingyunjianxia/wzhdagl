@@ -1269,7 +1269,7 @@ msgstr "感谢您使用 %(site_name)s!\n"
 
 #: documents/templates/account/login.html:5
 msgid "Paperless-ngx sign in"
-msgstr "Paperless-ngx 登录"
+msgstr "登录"
 
 #: documents/templates/account/login.html:10
 msgid "Please sign in."
@@ -1307,7 +1307,7 @@ msgstr "或者通过以下方式登录"
 
 #: documents/templates/account/password_reset.html:5
 msgid "Paperless-ngx reset password request"
-msgstr "Paperless-ngx密码重置请求"
+msgstr "密码重置请求"
 
 #: documents/templates/account/password_reset.html:9
 msgid "Enter your email address below, and we'll email instructions for setting a new one."
@@ -1323,7 +1323,7 @@ msgstr "向为发送说明"
 
 #: documents/templates/account/password_reset_done.html:5
 msgid "Paperless-ngx reset password sent"
-msgstr "Paperless-ngx密码重置发送"
+msgstr "密码重置信息发送"
 
 #: documents/templates/account/password_reset_done.html:9
 msgid "Check your inbox."
@@ -1335,7 +1335,7 @@ msgstr "我们已经通过电子邮件向您发送设置密码的说明。你应
 
 #: documents/templates/account/password_reset_from_key.html:5
 msgid "Paperless-ngx reset password confirmation"
-msgstr "Paperless-ngx密码重置确认"
+msgstr "密码重置确认"
 
 #: documents/templates/account/password_reset_from_key.html:9
 msgid "Set a new password."
@@ -1359,7 +1359,7 @@ msgstr "修改密码"
 
 #: documents/templates/account/password_reset_from_key_done.html:5
 msgid "Paperless-ngx reset password complete"
-msgstr "Paperless-ngx密码重置完成"
+msgstr "密码重置完成"
 
 #: documents/templates/account/password_reset_from_key_done.html:9
 msgid "Password reset complete."
@@ -1399,7 +1399,7 @@ msgstr "注册"
 
 #: documents/templates/index.html:61
 msgid "Paperless-ngx is loading..."
-msgstr "Paperless-ngx 正在加载..."
+msgstr "正在加载..."
 
 #: documents/templates/index.html:62
 msgid "Still here?! Hmm, something might be wrong."
